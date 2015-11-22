@@ -17,9 +17,9 @@ t1=time.time()
 #transformation
 for str in input1:
 	n=0
-	for cha in str:
-		if ord(cha) in range(97,123):
-			n=n+ord(cha)-96
+	for i in str:
+		if ord(i) in range(97,123):
+			n=n+ord(i)-96
 		else:
 			pass
 	print n
