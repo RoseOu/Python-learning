@@ -1,3 +1,4 @@
+# coding: utf-8
 
 a = raw_input("Please input a string:\n")
 i = 0

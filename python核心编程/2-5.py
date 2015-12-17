@@ -1,3 +1,5 @@
+# coding: utf-8
+
 #while
 counter = 0
 while counter < 11:

@@ -1,6 +1,5 @@
 # coding: utf-8
 
-
 t=1
 while (t):
 	a=(float(raw_input('Input a number between 1 and 100:')))

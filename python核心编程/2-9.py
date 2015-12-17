@@ -1,6 +1,5 @@
 # coding: utf-8
 
-
 #while
 a=[1,2,3,4,5]
 i=0
