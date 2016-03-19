@@ -23,14 +23,3 @@ print f(num)
 
 
 #附加题
-#附加题
-def g(num):
-	num_list = list(str(num))
-	eng = "zero,one,two,three,four,five,six,seven,eight,nine,ten"
-	eng_list = eng.split(',')
-	result = []
-	for i in num_list；
-		if num <= 10:
-			result.append（eng_list[int(i)])
-		return result
-		elif 
