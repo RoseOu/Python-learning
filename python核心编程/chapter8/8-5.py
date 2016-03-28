@@ -6,8 +6,8 @@
 '''
 
 num = int(input("Input the number here:"))
-fac_list = []
 def getfactors(num):
+	fac_list = []
 	i = 1
 	while i <= num:
 		if num%i == 0:

@@ -8,9 +8,9 @@
 '''
 
 num = int(input("Input the number here:"))
-divisor = []
-primelist = [1,num]
 def isprime(num):
+	divisor = []
+	primelist = [1,num]
 	i = 1
 	while i <= num:
 		if num % i == 0:
@@ -19,8 +19,6 @@ def isprime(num):
 			pass
 		i = i + 1
 	if divisor == primelist:
-		return True
-	elif num == 1:
 		return True
 	else:
 		return False
